@@ -1,0 +1,6 @@
+#include "Pods-Tests-PXInsetTextField.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/PXInsetTextField" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PXInsetTextField"
+OTHER_LDFLAGS = ${PODS_TESTS_PXINSETTEXTFIELD_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

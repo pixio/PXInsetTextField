@@ -1,0 +1,14 @@
+PODS:
+  - PXInsetTextField (0.1.0)
+
+DEPENDENCIES:
+  - PXInsetTextField (from `../`)
+
+EXTERNAL SOURCES:
+  PXInsetTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXInsetTextField: 0b38953ad84dfecc8b0db07067e5203be2f1efca
+
+COCOAPODS: 0.36.3

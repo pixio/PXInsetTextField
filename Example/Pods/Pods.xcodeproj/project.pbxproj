@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BE072ED3C8E908D6A6F43E /* PXInsetTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9D0E96E9DC4AE0E36F204 /* PXInsetTextField.m */; };
+		1B5330F94F4225674B71C364 /* Pods-PXInsetTextField-PXInsetTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C943A1DED4173033DF9129 /* Pods-PXInsetTextField-PXInsetTextField-dummy.m */; };
+		2140389A3D2794AF8606604B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2A88701229B0CCE55366A /* UIKit.framework */; };
+		384DB8D840E5977FCE5DB206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2A88701229B0CCE55366A /* UIKit.framework */; };
+		3BDAF7E2D86E6DD9ED2CA233 /* PXInsetTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C81C6DCE58A3D715AA708A2F /* PXInsetTextField.h */; };
+		4F4E061A059AF9E7C5C0254D /* PXInsetTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C81C6DCE58A3D715AA708A2F /* PXInsetTextField.h */; };
+		58D07CB7C8BE0CBE9A0930CC /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15B0107B9348CC7E60504A /* Pods-Tests-dummy.m */; };
+		5EDFED8356F6F8E4C3EA9E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021F2437EFD60E5D0DF89DDA /* Foundation.framework */; };
+		9622DF72A639731DD943D107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021F2437EFD60E5D0DF89DDA /* Foundation.framework */; };
+		BD87F3469A1CE644377639D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021F2437EFD60E5D0DF89DDA /* Foundation.framework */; };
+		C24979A4609DAEC0404534D5 /* PXInsetTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9D0E96E9DC4AE0E36F204 /* PXInsetTextField.m */; };
+		CCEE1A3426D94C7B5A49F580 /* Pods-PXInsetTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2841C3F571183211E23C634 /* Pods-PXInsetTextField-dummy.m */; };
+		E3403AA6790E3065DA10E7B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021F2437EFD60E5D0DF89DDA /* Foundation.framework */; };
+		F2F9E7CF0395583311343B9A /* Pods-Tests-PXInsetTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F4EFFFF50392387D7CFD2 /* Pods-Tests-PXInsetTextField-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31412717A62A22A899E0479A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159C3C5DDCF27FE926DD0D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0E71CFE93D5AB21D194575;
+			remoteInfo = "Pods-Tests-PXInsetTextField-PXInsetTextField";
+		};
+		590906995DE77F37C637FA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159C3C5DDCF27FE926DD0D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DEEA2F39C07A0E71832A78;
+			remoteInfo = "Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField";
+		};
+		AC56B5ACD0F74156E2C0BE4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159C3C5DDCF27FE926DD0D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D607B751AC29158BF913B2F;
+			remoteInfo = "Pods-PXInsetTextField-PXInsetTextField";
+		};
+		B2925310A325250304CE3AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159C3C5DDCF27FE926DD0D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9241191084CEE89CB901812;
+			remoteInfo = "Pods-Tests-PXInsetTextField";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021F2437EFD60E5D0DF89DDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		052AC2A974D3218096A5F35B /* Pods-PXInsetTextField-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXInsetTextField-resources.sh"; sourceTree = "<group>"; };
+		1B53785588009B905277FA3E /* Pods-Tests-PXInsetTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXInsetTextField.xcconfig"; path = "../Pods-Tests-PXInsetTextField/Pods-Tests-PXInsetTextField.xcconfig"; sourceTree = "<group>"; };
+		3B8946D939F834BF498C1CDD /* libPods-PXInsetTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXInsetTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8F4EFFFF50392387D7CFD2 /* Pods-Tests-PXInsetTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXInsetTextField-dummy.m"; path = "../Pods-Tests-PXInsetTextField/Pods-Tests-PXInsetTextField-dummy.m"; sourceTree = "<group>"; };
+		4951B7BA9BCDB3243691B50C /* Pods-Tests-PXInsetTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXInsetTextField-prefix.pch"; path = "../Pods-Tests-PXInsetTextField/Pods-Tests-PXInsetTextField-prefix.pch"; sourceTree = "<group>"; };
+		52A76D1C4808FA48BA359336 /* Pods-PXInsetTextField-PXInsetTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInsetTextField-PXInsetTextField.xcconfig"; sourceTree = "<group>"; };
+		53BE09FF7BA700DD76562D2D /* Pods-PXInsetTextField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXInsetTextField-acknowledgements.markdown"; sourceTree = "<group>"; };
+		547BECA98221BA114A3A25A6 /* Pods-PXInsetTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInsetTextField.release.xcconfig"; sourceTree = "<group>"; };
+		63B2A88701229B0CCE55366A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6619CDFB519584E5B3DD6A32 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DAC3C665C529D79A9227A5A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70087C21D773522976AEB75B /* Pods-PXInsetTextField-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXInsetTextField-acknowledgements.plist"; sourceTree = "<group>"; };
+		766BAE818DE8FAFE5F045656 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		7757C88F5A08CF5120F2E4F9 /* Pods-PXInsetTextField-PXInsetTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInsetTextField-PXInsetTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		82D3A65B5BDF1377D302F5FB /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8484DE68560D1096947AFC26 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F73E64D02F0D0D1BD62AC0A /* Pods-PXInsetTextField-PXInsetTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInsetTextField-PXInsetTextField-prefix.pch"; sourceTree = "<group>"; };
+		9909565F5590C7B86E230927 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		B1657FE5D518F64E54001082 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA16EB69502C8846AC010378 /* libPods-Tests-PXInsetTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXInsetTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB215D8F139487E27821FB75 /* libPods-PXInsetTextField-PXInsetTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXInsetTextField-PXInsetTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD15B0107B9348CC7E60504A /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		C435077CB798A0F947DB8658 /* PXInsetTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXInsetTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81C6DCE58A3D715AA708A2F /* PXInsetTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXInsetTextField.h; sourceTree = "<group>"; };
+		CC1AEFCB9E387549A7188D22 /* Pods-PXInsetTextField-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXInsetTextField-environment.h"; sourceTree = "<group>"; };
+		D224C26C0A927EC9606001C7 /* PXInsetTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXInsetTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22A730071F4A932049AE325 /* Pods-Tests-PXInsetTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXInsetTextField-Private.xcconfig"; path = "../Pods-Tests-PXInsetTextField/Pods-Tests-PXInsetTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		DAA9D0E96E9DC4AE0E36F204 /* PXInsetTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXInsetTextField.m; sourceTree = "<group>"; };
+		DBF11AEB5932750210FD737A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2841C3F571183211E23C634 /* Pods-PXInsetTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInsetTextField-dummy.m"; sourceTree = "<group>"; };
+		E6131AA675717C4CE65B710C /* Pods-PXInsetTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXInsetTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C943A1DED4173033DF9129 /* Pods-PXInsetTextField-PXInsetTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXInsetTextField-PXInsetTextField-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2ECB9B08202EE46DBBB06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD87F3469A1CE644377639D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDFE82A8D782E442E39385E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3403AA6790E3065DA10E7B5 /* Foundation.framework in Frameworks */,
+				2140389A3D2794AF8606604B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30D3A716728926CD011F0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9622DF72A639731DD943D107 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1D6921624BFD230991CD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A782256102FAE6AE4C480D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D6DF29013203478228F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDFED8356F6F8E4C3EA9E18 /* Foundation.framework in Frameworks */,
+				384DB8D840E5977FCE5DB206 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C37295E23A894645972F0E /* Pods-PXInsetTextField */ = {
+			isa = PBXGroup;
+			children = (
+				53BE09FF7BA700DD76562D2D /* Pods-PXInsetTextField-acknowledgements.markdown */,
+				70087C21D773522976AEB75B /* Pods-PXInsetTextField-acknowledgements.plist */,
+				E2841C3F571183211E23C634 /* Pods-PXInsetTextField-dummy.m */,
+				CC1AEFCB9E387549A7188D22 /* Pods-PXInsetTextField-environment.h */,
+				052AC2A974D3218096A5F35B /* Pods-PXInsetTextField-resources.sh */,
+				E6131AA675717C4CE65B710C /* Pods-PXInsetTextField.debug.xcconfig */,
+				547BECA98221BA114A3A25A6 /* Pods-PXInsetTextField.release.xcconfig */,
+			);
+			name = "Pods-PXInsetTextField";
+			path = "Target Support Files/Pods-PXInsetTextField";
+			sourceTree = "<group>";
+		};
+		28E0B98687ACA4684902E7F9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C37295E23A894645972F0E /* Pods-PXInsetTextField */,
+				97F33C7C3CA821417E97C93E /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5EE6090FFC4C60B5B5DA80F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52A76D1C4808FA48BA359336 /* Pods-PXInsetTextField-PXInsetTextField.xcconfig */,
+				7757C88F5A08CF5120F2E4F9 /* Pods-PXInsetTextField-PXInsetTextField-Private.xcconfig */,
+				F0C943A1DED4173033DF9129 /* Pods-PXInsetTextField-PXInsetTextField-dummy.m */,
+				8F73E64D02F0D0D1BD62AC0A /* Pods-PXInsetTextField-PXInsetTextField-prefix.pch */,
+				1B53785588009B905277FA3E /* Pods-Tests-PXInsetTextField.xcconfig */,
+				D22A730071F4A932049AE325 /* Pods-Tests-PXInsetTextField-Private.xcconfig */,
+				3B8F4EFFFF50392387D7CFD2 /* Pods-Tests-PXInsetTextField-dummy.m */,
+				4951B7BA9BCDB3243691B50C /* Pods-Tests-PXInsetTextField-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-PXInsetTextField-PXInsetTextField";
+			sourceTree = "<group>";
+		};
+		6D9324FF6111CC3B7017AE1A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				021F2437EFD60E5D0DF89DDA /* Foundation.framework */,
+				63B2A88701229B0CCE55366A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8950EDFA41567F412BAA55E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C81C6DCE58A3D715AA708A2F /* PXInsetTextField.h */,
+				DAA9D0E96E9DC4AE0E36F204 /* PXInsetTextField.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		92775E4D25C388DA8436CE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D224C26C0A927EC9606001C7 /* PXInsetTextField.bundle */,
+				C435077CB798A0F947DB8658 /* PXInsetTextField.bundle */,
+				3B8946D939F834BF498C1CDD /* libPods-PXInsetTextField.a */,
+				BB215D8F139487E27821FB75 /* libPods-PXInsetTextField-PXInsetTextField.a */,
+				DBF11AEB5932750210FD737A /* libPods-Tests.a */,
+				BA16EB69502C8846AC010378 /* libPods-Tests-PXInsetTextField.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955D5B83E0001233454F0FB2 /* PXInsetTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A2B5DF6191ED6BFF54200714 /* Pod */,
+				5EE6090FFC4C60B5B5DA80F1 /* Support Files */,
+			);
+			name = PXInsetTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		97F33C7C3CA821417E97C93E /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82D3A65B5BDF1377D302F5FB /* Pods-Tests-acknowledgements.markdown */,
+				6619CDFB519584E5B3DD6A32 /* Pods-Tests-acknowledgements.plist */,
+				BD15B0107B9348CC7E60504A /* Pods-Tests-dummy.m */,
+				766BAE818DE8FAFE5F045656 /* Pods-Tests-environment.h */,
+				9909565F5590C7B86E230927 /* Pods-Tests-resources.sh */,
+				B1657FE5D518F64E54001082 /* Pods-Tests.debug.xcconfig */,
+				6DAC3C665C529D79A9227A5A /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		A2B5DF6191ED6BFF54200714 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8950EDFA41567F412BAA55E9 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		AB66CCC8BB68E13A1A9D7B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9324FF6111CC3B7017AE1A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5F40FF89788EF9558154B1B = {
+			isa = PBXGroup;
+			children = (
+				8484DE68560D1096947AFC26 /* Podfile */,
+				EA2BFDC4A65E5B123FF6705F /* Development Pods */,
+				AB66CCC8BB68E13A1A9D7B28 /* Frameworks */,
+				92775E4D25C388DA8436CE56 /* Products */,
+				28E0B98687ACA4684902E7F9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2BFDC4A65E5B123FF6705F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				955D5B83E0001233454F0FB2 /* PXInsetTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DAEDB6963EFBECD6EA1E32BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDAF7E2D86E6DD9ED2CA233 /* PXInsetTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F3A5AE35EEE4B6BF73594F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4E061A059AF9E7C5C0254D /* PXInsetTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27DEEA2F39C07A0E71832A78 /* Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3AE3A5211E4A1D33C27310 /* Build configuration list for PBXNativeTarget "Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField" */;
+			buildPhases = (
+				15F2EB3D770FAF2956C99456 /* Sources */,
+				AD1D6921624BFD230991CD9B /* Frameworks */,
+				961BC1590094E913AF7A7A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField";
+			productName = "Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField";
+			productReference = C435077CB798A0F947DB8658 /* PXInsetTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5D607B751AC29158BF913B2F /* Pods-PXInsetTextField-PXInsetTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F154B83D6587039DDD3AFF0 /* Build configuration list for PBXNativeTarget "Pods-PXInsetTextField-PXInsetTextField" */;
+			buildPhases = (
+				2FA0FAA8662B967A9005D4D0 /* Sources */,
+				7DDFE82A8D782E442E39385E /* Frameworks */,
+				E0F3A5AE35EEE4B6BF73594F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD0AD01131EF38651A47D6D /* PBXTargetDependency */,
+			);
+			name = "Pods-PXInsetTextField-PXInsetTextField";
+			productName = "Pods-PXInsetTextField-PXInsetTextField";
+			productReference = BB215D8F139487E27821FB75 /* libPods-PXInsetTextField-PXInsetTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		96A57B38008D55E91514B57B /* Pods-PXInsetTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A787DF3698B154615783F59E /* Build configuration list for PBXNativeTarget "Pods-PXInsetTextField" */;
+			buildPhases = (
+				AC4E520F5A4E3D23ED5D1B25 /* Sources */,
+				4B2ECB9B08202EE46DBBB06C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256B8EA12F31C49507D974A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXInsetTextField";
+			productName = "Pods-PXInsetTextField";
+			productReference = 3B8946D939F834BF498C1CDD /* libPods-PXInsetTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B9241191084CEE89CB901812 /* Pods-Tests-PXInsetTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40FC2681855C132DD0C69C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXInsetTextField" */;
+			buildPhases = (
+				96A260087929E55DDF976BCA /* Sources */,
+				FDE5D6DF29013203478228F8 /* Frameworks */,
+				DAEDB6963EFBECD6EA1E32BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB2D38695AE6E06E1845A55 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-PXInsetTextField";
+			productName = "Pods-Tests-PXInsetTextField";
+			productReference = BA16EB69502C8846AC010378 /* libPods-Tests-PXInsetTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA0E71CFE93D5AB21D194575 /* Pods-Tests-PXInsetTextField-PXInsetTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C9AE7E160E5B9000B10074 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXInsetTextField-PXInsetTextField" */;
+			buildPhases = (
+				1D8991ACAEBF85E91D78EF4C /* Sources */,
+				F9A782256102FAE6AE4C480D /* Frameworks */,
+				0267748699DCBF225C9812C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-PXInsetTextField-PXInsetTextField";
+			productName = "Pods-Tests-PXInsetTextField-PXInsetTextField";
+			productReference = D224C26C0A927EC9606001C7 /* PXInsetTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EB2F6D8FFE077FEB9BD33A52 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8F9D4C9F8D5F0314A64E37 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				C8B564161171B101F398A096 /* Sources */,
+				A30D3A716728926CD011F0B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323E69AC0220E318F986B87 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = DBF11AEB5932750210FD737A /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		159C3C5DDCF27FE926DD0D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 223EEF4551D642315E59F2B7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5F40FF89788EF9558154B1B;
+			productRefGroup = 92775E4D25C388DA8436CE56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A57B38008D55E91514B57B /* Pods-PXInsetTextField */,
+				5D607B751AC29158BF913B2F /* Pods-PXInsetTextField-PXInsetTextField */,
+				27DEEA2F39C07A0E71832A78 /* Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField */,
+				EB2F6D8FFE077FEB9BD33A52 /* Pods-Tests */,
+				B9241191084CEE89CB901812 /* Pods-Tests-PXInsetTextField */,
+				DA0E71CFE93D5AB21D194575 /* Pods-Tests-PXInsetTextField-PXInsetTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0267748699DCBF225C9812C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961BC1590094E913AF7A7A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15F2EB3D770FAF2956C99456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8991ACAEBF85E91D78EF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA0FAA8662B967A9005D4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24979A4609DAEC0404534D5 /* PXInsetTextField.m in Sources */,
+				1B5330F94F4225674B71C364 /* Pods-PXInsetTextField-PXInsetTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A260087929E55DDF976BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BE072ED3C8E908D6A6F43E /* PXInsetTextField.m in Sources */,
+				F2F9E7CF0395583311343B9A /* Pods-Tests-PXInsetTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E520F5A4E3D23ED5D1B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEE1A3426D94C7B5A49F580 /* Pods-PXInsetTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B564161171B101F398A096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D07CB7C8BE0CBE9A0930CC /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256B8EA12F31C49507D974A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXInsetTextField-PXInsetTextField";
+			target = 5D607B751AC29158BF913B2F /* Pods-PXInsetTextField-PXInsetTextField */;
+			targetProxy = AC56B5ACD0F74156E2C0BE4C /* PBXContainerItemProxy */;
+		};
+		7BD0AD01131EF38651A47D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField";
+			target = 27DEEA2F39C07A0E71832A78 /* Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField */;
+			targetProxy = 590906995DE77F37C637FA2F /* PBXContainerItemProxy */;
+		};
+		8323E69AC0220E318F986B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXInsetTextField";
+			target = B9241191084CEE89CB901812 /* Pods-Tests-PXInsetTextField */;
+			targetProxy = B2925310A325250304CE3AC5 /* PBXContainerItemProxy */;
+		};
+		8CB2D38695AE6E06E1845A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXInsetTextField-PXInsetTextField";
+			target = DA0E71CFE93D5AB21D194575 /* Pods-Tests-PXInsetTextField-PXInsetTextField */;
+			targetProxy = 31412717A62A22A899E0479A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F7DF61EF02F375C55FC3903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7757C88F5A08CF5120F2E4F9 /* Pods-PXInsetTextField-PXInsetTextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXInsetTextField-PXInsetTextField/Pods-PXInsetTextField-PXInsetTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4CE8EA3573A03D3D3CA4A9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547BECA98221BA114A3A25A6 /* Pods-PXInsetTextField.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		55D0819323A0909F7B239C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1657FE5D518F64E54001082 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5EFADB58B5938270BD538BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAC3C665C529D79A9227A5A /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6688BB54079F48CF16CC54F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22A730071F4A932049AE325 /* Pods-Tests-PXInsetTextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXInsetTextField/Pods-Tests-PXInsetTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E9A753F0D5E88F766275EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C931916274CDCEA4E79DDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXInsetTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A019460134008F5CB51C0EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXInsetTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A3E817474F5EA278BFE07AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7757C88F5A08CF5120F2E4F9 /* Pods-PXInsetTextField-PXInsetTextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXInsetTextField-PXInsetTextField/Pods-PXInsetTextField-PXInsetTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B1F8AB494B01CDFE0E7E78AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9361DAA437C76B78D0612F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXInsetTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D24D2BE7AEDDD13517497BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22A730071F4A932049AE325 /* Pods-Tests-PXInsetTextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXInsetTextField/Pods-Tests-PXInsetTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFC6108ACF5D618E3FB955D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6131AA675717C4CE65B710C /* Pods-PXInsetTextField.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EDD0A454E5F812DEB9FFBEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXInsetTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F154B83D6587039DDD3AFF0 /* Build configuration list for PBXNativeTarget "Pods-PXInsetTextField-PXInsetTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7DF61EF02F375C55FC3903 /* Debug */,
+				A3E817474F5EA278BFE07AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223EEF4551D642315E59F2B7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F8AB494B01CDFE0E7E78AE /* Debug */,
+				7E9A753F0D5E88F766275EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C9AE7E160E5B9000B10074 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXInsetTextField-PXInsetTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A019460134008F5CB51C0EAE /* Debug */,
+				9C931916274CDCEA4E79DDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8F9D4C9F8D5F0314A64E37 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D0819323A0909F7B239C21 /* Debug */,
+				5EFADB58B5938270BD538BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3AE3A5211E4A1D33C27310 /* Build configuration list for PBXNativeTarget "Pods-PXInsetTextField-PXInsetTextField-PXInsetTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9361DAA437C76B78D0612F0 /* Debug */,
+				EDD0A454E5F812DEB9FFBEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40FC2681855C132DD0C69C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXInsetTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6688BB54079F48CF16CC54F3 /* Debug */,
+				D24D2BE7AEDDD13517497BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A787DF3698B154615783F59E /* Build configuration list for PBXNativeTarget "Pods-PXInsetTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC6108ACF5D618E3FB955D6 /* Debug */,
+				4CE8EA3573A03D3D3CA4A9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 159C3C5DDCF27FE926DD0D4F /* Project object */;
+}
